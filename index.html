@@ -2,20 +2,15 @@
 <html>
 <head>
 	<title> Mountain Biking Essentials </title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<h1 align="center"> Mountain Biking Essentials </h1>
-		<h2 align="center"> So, you think you want to start mountain biking? Welcome to the fun side!</h2>
-			<figure>
-				<center>
-					<img src="http://2.bp.blogspot.com/-ygBnEvmjfsw/UV1NabDpdbI/AAAAAAAAFcM/Zu7yrEdpXeU/s1600/www.downhillmtbaddicts.blogspot.com-Rideurs1.jpg" alt="Biker Thumbs Up"/>
-				</center>
-					<figcaption> Photo courtesy of <a href="http://downhillmtbaddicts.blogspot.com/">Downhill Mountain Bike Addicts</a></figcaption>
-			</figure>
-		<p> Ready to start mountain biking, but don't know really where to start? What you'll need? How to maintain your equipment? Oh, and maybe some tips on basic riding skills? Don't fret, we've got you covered. </p> 
-	<div>
-		<nav class="menu">
-			<ul>
+	<div class="Title">
+		<h1 align="center"> Mountain Biking Essentials </h1>
+	</div>
+	<div id="menu">
+		<nav>
+			<ul id="menu-links">
 				<li><a href="index.html">Home</a></li>
 				<li>Checklists<span class="arrow">&#8681;</span>
 					<ul>
@@ -27,7 +22,22 @@
 			</ul>
 		</nav>
 	</div>
-	<p>If you're interested in further research, resources, tools, and well, just cool bike stuff we recommend visiting <a href="http://www.parktool.com/">Park Tool.</a> They have a large breadth of tips and tricks for bike maintenance. Not to mention, their site is easy and fun to navigate through. I recognize block elements and a lot of attributes, but I don't recognize the CSS styling and code for that yet.</p>
-
+	<main>
+		<h2 align="center"> So, you think you want to start mountain biking? Welcome to the fun side!</h2>
+		<figure>
+			<img src="http://2.bp.blogspot.com/-ygBnEvmjfsw/UV1NabDpdbI/AAAAAAAAFcM/Zu7yrEdpXeU/s1600/www.downhillmtbaddicts.blogspot.com-Rideurs1.jpg" alt="Biker Thumbs Up"/>
+			<figcaption> Photo courtesy of <a href="http://downhillmtbaddicts.blogspot.com/">Downhill Mountain Bike Addicts</a></figcaption>
+		</figure>
+		<p> Ready to start mountain biking, but don't know really where to start? What you'll need? How to maintain your equipment? Oh, and maybe some tips on basic riding skills? Don't fret, we've got you covered. </p> 
+		<p>If you're interested in further research, resources, tools, and well, just cool bike stuff we recommend visiting <a href="http://www.parktool.com/">Park Tool.</a> They have a large breadth of tips and tricks for bike maintenance. Not to mention, their site is easy and fun to navigate through. I recognize block elements and a lot of attributes, but I don't recognize the CSS styling and code for that yet.</p>
+	</main>
+	<footer>
+		<form>
+			<form action="submit">
+    		<label><strong>Join our email list!</strong></label>
+    		<input type="text" placeholder="Enter Email" name="email" required>
+            <button type="submit" class="signup">Sign Up</button>
+    	</form>
+	</footer>
 </body>
 </html>
